@@ -13,10 +13,7 @@ def main():
             if your_choice == 4:
                 break
             if your_choice not in {1, 2, 3}:
-                attempts -= (
-                    1  # if the user enters a number except {1, 2, 3} the program ends
-                )
-            #                                                  But it adds one to the number of attempts, so this was needed.
+                attempts -= (1)                                                  
 
             computer_choice = randint(1, 3)
             attempts += 1
